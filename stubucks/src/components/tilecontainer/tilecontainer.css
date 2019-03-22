@@ -1,0 +1,8 @@
+#tilecontainer {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    border: solid 1px red;
+    height: 80vh;
+
+}
