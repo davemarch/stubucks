@@ -8,15 +8,27 @@ import NavFooter from "../navfooter/navfooter.js";
 
 
 
-const Main = () => {
-    return (
+
+const Main = (props) => {
+ 
+        return (
     <div id="main">
-        <h1>main</h1>
-        <Container/>
-        <Span/>
-        <Container/>
-        <Span/>
-        <TileContainer/>
+        <Container 
+            background = {props.heroBackground} 
+            headings = {props.headings[0]} 
+            subtitles = {props.subtitles[0]}/>
+        <Span
+            spans = {props.spans[0]}/>
+        <Container  
+            icedCoffee = {props.icedCoffee} 
+            icedCoffeeBg = {props.icedCoffeeBg} 
+            headings = {props.headings[1]} 
+            subtitles = {props.subtitles[1]}/>
+        <Span
+            spans = {props.spans[1]}/>
+        
+        <TileContainer
+            tiles = {props.tiles}/>
         <NavFooter/>
     </div>
     )

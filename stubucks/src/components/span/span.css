@@ -1,3 +1,9 @@
 #span {
     border: solid 1px red;
+    text-align: center;
+    padding: 1%;
+}
+
+#span:last-child{
+    background: #057453;
 }

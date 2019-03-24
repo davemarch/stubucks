@@ -2,11 +2,11 @@ import React from 'react';
 import './span.css';
 
 
-const Span = () => {
+const Span = (props) => {
     return (
-    <span id="span">
-        <h1>Span</h1>
-    </span>
+    <div id="span">
+        {props.spans}
+    </div>
     )
 };
 

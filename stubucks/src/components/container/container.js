@@ -1,15 +1,22 @@
 import React from 'react';
 import './container.css';
+import Heading from "../heading/heading.js";
 
 
-const Container = () => {
+
+const Container = (props) => {
+
     return (
-    <div id="container">
-        <h1>container</h1>
-        
+    <div 
+        id="container" 
+        style = {{ backgroundImage: 'url(' + props.background + ')' , backgroundColor: props.icedCoffeeBg}}  >
+        <img id="icedCoffee" src={props.icedCoffee} /> 
+        <Heading headings = {props.headings} subtitles = {props.subtitles}/>
+
     </div>
     )
 };
 
+// 
 
 export default Container;

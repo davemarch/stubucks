@@ -2,12 +2,11 @@ import React from 'react';
 import './navbar.css';
 
 
-const NavBar = () => {
+const NavBar = (props) => {
     return (
-    <navbar id="navbar">
-        navbar
-        
-    </navbar>
+    <nav id="navbar">
+    <img id="logo" src={props.logo.logo}/>        
+    </nav>
     )
 };
 

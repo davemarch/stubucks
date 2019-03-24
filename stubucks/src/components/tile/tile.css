@@ -2,6 +2,20 @@
     border: solid 1px blue;
     width: 30%;
     margin: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: black;
 
+}
+
+#roundImages {
+    border-radius: 50%;
+    height: 300px;
+    width: 65%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 

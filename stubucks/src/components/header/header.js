@@ -3,11 +3,14 @@ import './header.css';
 import NavBar from "../navbar/navbar.js";
 
 
-const Header = () => {
+const Header = (props) => {
     return (
-    <header id="header">
-        <h1>header</h1>
-        <NavBar/>
+    <header >
+        <span id="header">
+        {props.heading}
+        {props.storeLocator}
+        </span>
+        <NavBar  logo = {props.logo}/>
     </header>
     )
 };

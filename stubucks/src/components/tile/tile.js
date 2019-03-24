@@ -2,10 +2,14 @@ import React from 'react';
 import './tile.css';
 
 
-const Tile = () => {
+const Tile = (props) => {
+    console.log(props.tiles.img.shopCoffeeImg)
     return (
     <div id="tile">
-        <h1>tile</h1>
+        <div id="roundImages" style = {{ backgroundImage: 'url(' + props.tiles.img + ')'}}></div>
+        <h1>{props.tiles.title}</h1>
+        <h4>{props.tiles.subtitle}</h4>
+
     </div>
     )
 };
