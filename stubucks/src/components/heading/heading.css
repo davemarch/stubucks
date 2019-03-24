@@ -1,5 +1,6 @@
 #heading {
-    border: solid 1px red;
+    /* border: solid 1px red; */
     position: relative;
+    right: 30%;
     width: 30%;
 }

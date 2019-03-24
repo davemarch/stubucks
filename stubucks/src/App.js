@@ -21,7 +21,8 @@ class App extends Component {
   state = {
     Header : { heading : <p id="offerCode" style={{color:'black'}}> 'Free Shipping on orders of £30+ | Use Code STULOVE > offer details >' </p>,
                 storeLocator : <p id="storeLocator" style={{color:'white'}}>Find nearest store</p>,
-                logo : {logo}},
+                logo : {logo},
+                menu : ['Coffee', 'Tea', 'Menu', 'Rewards', 'Want to join our Team?', 'Locations', 'Specials']},
     Main : { heroBackground : heroBackground,
               icedCoffee : icedCoffee,
               icedCoffeeBg : '#0e141d',
@@ -47,6 +48,7 @@ class App extends Component {
           heading = {this.state.Header.heading} 
           storeLocator = {this.state.Header.storeLocator} 
           logo = {this.state.Header.logo}
+          menu = {this.state.Header.menu}
           />
         
         <Main 

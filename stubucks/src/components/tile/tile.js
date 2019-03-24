@@ -3,7 +3,6 @@ import './tile.css';
 
 
 const Tile = (props) => {
-    console.log(props.tiles.img.shopCoffeeImg)
     return (
     <div id="tile">
         <div id="roundImages" style = {{ backgroundImage: 'url(' + props.tiles.img + ')'}}></div>
