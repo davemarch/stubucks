@@ -1,0 +1,19 @@
+{
+  "main.css": "/stubucks/static/css/main.91c5a005.chunk.css",
+  "main.js": "/stubucks/static/js/main.ab61ff80.chunk.js",
+  "main.js.map": "/stubucks/static/js/main.ab61ff80.chunk.js.map",
+  "runtime~main.js": "/stubucks/static/js/runtime~main.2c0cf6f9.js",
+  "runtime~main.js.map": "/stubucks/static/js/runtime~main.2c0cf6f9.js.map",
+  "static/js/2.fcdef496.chunk.js": "/stubucks/static/js/2.fcdef496.chunk.js",
+  "static/js/2.fcdef496.chunk.js.map": "/stubucks/static/js/2.fcdef496.chunk.js.map",
+  "index.html": "/stubucks/index.html",
+  "precache-manifest.1a129fb6d5fb0f23647fa6a9f2af369e.js": "/stubucks/precache-manifest.1a129fb6d5fb0f23647fa6a9f2af369e.js",
+  "service-worker.js": "/stubucks/service-worker.js",
+  "static/css/main.91c5a005.chunk.css.map": "/stubucks/static/css/main.91c5a005.chunk.css.map",
+  "static/media/StubrewIcedCoffee.png": "/stubucks/static/media/StubrewIcedCoffee.5e00bade.png",
+  "static/media/StubucksHero.jpg": "/stubucks/static/media/StubucksHero.1d7b8b13.jpg",
+  "static/media/buyCoffee.jpg": "/stubucks/static/media/buyCoffee.5fb42db7.jpg",
+  "static/media/buyEquipment.png": "/stubucks/static/media/buyEquipment.80bb634e.png",
+  "static/media/buyTea.jpg": "/stubucks/static/media/buyTea.f872f55e.jpg",
+  "static/media/stubucks-logo.png": "/stubucks/static/media/stubucks-logo.a70b01df.png"
+}
