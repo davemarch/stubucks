@@ -29,7 +29,8 @@ const Main = (props) => {
         
         <TileContainer
             tiles = {props.tiles}/>
-        <NavFooter/>
+        <NavFooter 
+            links = {props.links}/>
     </div>
     )
 };

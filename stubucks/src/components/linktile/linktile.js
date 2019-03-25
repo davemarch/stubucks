@@ -2,10 +2,21 @@ import React from 'react';
 import './linktile.css';
 
 
-const Linktile = () => {
+const Linktile = (props) => {
+
+    let linkItems = props.links.map(function(item, index){
+        return <li key={index}>{item}</li>
+      })
+    
+
     return (
     <div id="linktile">
-        <h1>linktile</h1>
+        <h1>{props.headings}</h1>
+        <ul>
+            {linkItems}
+        </ul>
+        
+
     </div>
     )
 };

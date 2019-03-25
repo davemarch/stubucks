@@ -4,8 +4,8 @@ import './navbar.css';
 
 const NavBar = (props) => {
 
-let menuItems = props.menu.map(function(item){
-    return <li>{item}</li>
+let menuItems = props.menu.map(function(item, index){
+    return <li key={index}>{item}</li>
   })
 
     return (
