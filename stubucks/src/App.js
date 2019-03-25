@@ -15,6 +15,10 @@ import icedCoffee from "./Assets/Images/StubrewIcedCoffee.png";
 import buyCoffee from "./Assets/Images/buyCoffee.jpg";
 import buyTea from "./Assets/Images/buyTea.jpg";
 import buyEquipment from "./Assets/Images/buyEquipment.png";
+import arrowGreen from "./Assets/Icons/icon-arrow-green.png";
+import arrowWhite from "./Assets/Icons/icon-arrow-white.png";
+
+
 
 
 class App extends Component {
@@ -26,6 +30,8 @@ class App extends Component {
     Main : { heroBackground : heroBackground,
               icedCoffee : icedCoffee,
               icedCoffeeBg : '#0e141d',
+              arrowWhite: arrowWhite,
+              arrowGreen: arrowGreen,
               headings: [
               <div className = "hotCoffeeText"><h1><span className='greenText'>Love</span> your Stu</h1><h4>Look at our range and choose the Stu that suits you.</h4></div>, 
               <div className = "icedCoffeeText"><h1>The new <span className='greenText'>StuBrew</span></h1><h4>A delicious new <span className="greenText">nitro brew</span> develop carefully on the darkside of the moon, instilled with the freshness of Stu himself.</h4></div>, 
@@ -47,7 +53,7 @@ class App extends Component {
               socialLinks : [<img src={facebook} />, <img src={instagram} />, <img src={linkedin} />, <img src={twitter} />, <img src={pinterest} /> ]
              },
     Footer : {address : <p>Stubucks Chester,<br/> Cheshire,<br/> Since 2019</p>,
-              links : ['Stubucks Coffee', "|", "Privacy Policy", "|", "Terms of Service"],
+              links : ['Stubucks Coffee', " | ", "Privacy Policy", " | ", "Terms of Service"],
               trademark : "Stubucks is not a registered trademark, infact it was just something Stuart made Dan make even though he didn't have any spare time. But he likes designing stuff so that's OK"}
 
 }
@@ -69,6 +75,8 @@ class App extends Component {
           spans = {this.state.Main.spans}
           tiles = {this.state.Tiles}
           links = {this.state.NavFooter}
+          arrowGreen = {this.state.Main.arrowGreen}
+          arrowWhite = {this.state.Main.arrowWhite}
           />
         <Footer
           footer = {this.state.Footer}

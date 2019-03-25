@@ -24,6 +24,8 @@ const Main = (props) => {
         <Span
             spans = {props.spans[0]}/>
         <Container  
+            arrow = {props.arrowWhite}
+
             icedCoffee = {props.icedCoffee} 
             icedCoffeeBg = {props.icedCoffeeBg} 
             headings = {props.headings[1]} 
@@ -33,6 +35,7 @@ const Main = (props) => {
                 spans = {props.spans[1]}/>
         </div>
         <TileContainer
+            arrow = {props.arrowGreen}
             tiles = {props.tiles}/>
         <NavFooter 
             links = {props.links}/>
