@@ -1,5 +1,41 @@
-#navfooter {
+#navfooter{
     display: flex;
     flex-direction: row;
-    border: solid 1px red;
+    background: #e7e7e7
 }
+
+#navfooter h1 {
+    padding: 5%;
+    font-weight: 1000;
+}
+
+ul {
+    list-style: none;
+
+}
+
+.col-left {
+    position: relative;
+    flex-direction: column;
+    width: 20%;
+    height: 50%;
+    left: 10%;
+    padding: 5%;
+}
+
+.col-middle{
+    position: relative;
+    /* border: solid 1px blue; */
+    width: 25%;
+    height: 100%;
+    padding: 5%;
+}
+
+.col-social{
+    position: relative;
+    width: 20%;
+    padding: 5%;
+    right: 10%;
+}
+
+

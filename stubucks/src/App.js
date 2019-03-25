@@ -27,10 +27,10 @@ class App extends Component {
               icedCoffee : icedCoffee,
               icedCoffeeBg : '#0e141d',
               headings: [
-              <h1><span className='greenText'>Love</span> your Stu</h1>, 
-              <h1>The new <span className='greenText'>StuBrew</span></h1>, 
+              <div className = "hotCoffeeText"><h1><span className='greenText'>Love</span> your Stu</h1><h4>Look at our range and choose the Stu that suits you.</h4></div>, 
+              <div className = "icedCoffeeText"><h1>The new <span className='greenText'>StuBrew</span></h1><h4>A delicious new nitro brew develop carefully on the darkside of the moon, instilled with the freshness of Stu himself.</h4></div>, 
               ],
-              subtitles : ['Look at our range and choose the Stu that suits you.',"A delicious new nitro brew develop carefully on the darkside of the moon, instilled with the freshness of Stu himself."],
+              
               spans: [
               <h1 style={{color:'black'}}>Try something <span className='greenText'>new</span>?</h1>, 
               <h1 style={{color:'white'}}>The Stu <span style={{color:'Black'}}>Shop</span>?</h1>
@@ -66,7 +66,6 @@ class App extends Component {
           icedCoffee = {this.state.Main.icedCoffee} 
           icedCoffeeBg = {this.state.Main.icedCoffeeBg}
           headings = {this.state.Main.headings}
-          subtitles = {this.state.Main.subtitles}
           spans = {this.state.Main.spans}
           tiles = {this.state.Tiles}
           links = {this.state.NavFooter}

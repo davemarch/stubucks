@@ -1,19 +1,19 @@
 #header {
     display: flex;
     flex-direction: row;
-    border: solid 1px red;
+    /* border: solid 1px red; */
     height: 5%;
     text-align: center;
 }
 
 #offerCode{
-    border: solid 1px blue;
+    /* border: solid 1px blue; */
     width: 80%;
 }
 
 #storeLocator{
     background: #057453;
-    border: solid 1px blue;
+    /* border: solid 1px blue; */
     width: 20%;
 }
 

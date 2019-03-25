@@ -1,6 +1,8 @@
 import React from 'react';
 import './navfooter.css';
 import Linktile from "../linktile/linktile.js";
+import SocialLinktile from "../sociallinktile/sociallinktile.js";
+
 
 
 const Navfooter = (props) => {
@@ -11,11 +13,16 @@ const Navfooter = (props) => {
 
     return (
     <nav id="navfooter">
-        <h1>Nav Footer</h1>
+        <div className = "col-left">
         <Linktile headings = {props.links.headings[0]} links = {props.links.helpLinks}/>
         <Linktile headings = {props.links.headings[1]} links = {props.links.aboutLinks}/>
+        </div>
+        <div className = 'col-middle'>
         <Linktile headings = {props.links.headings[2]} links = {props.links.companyLinks}/>
-        <Linktile headings = {props.links.headings[3]} links = {props.links.socialLinks}/>
+        </div>
+        <div className = 'col-social'>
+        <SocialLinktile headings = {props.links.headings[3]} links = {props.links.socialLinks}/>
+        </div>
 
 
 

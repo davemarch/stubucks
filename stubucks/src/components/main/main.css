@@ -1,4 +1,12 @@
 #main {
-    border: solid 1px red;
+    /* border: solid 1px red; */
 }
 
+.icedCoffeeText{
+    position: relative;
+    left: 100%;
+}
+
+.greenBg {
+    background: #317255
+}
