@@ -10,7 +10,7 @@ const Header = (props) => {
         {props.heading}
         {props.storeLocator}
         </span>
-        <NavBar  logo = {props.logo} menu = {props.menu}/>
+        <NavBar  logo = {props.logo} menu = {props.menu} />
     </header>
     )
 };
