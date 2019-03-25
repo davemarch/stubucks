@@ -1,15 +1,1 @@
 
-@media (max-width: 600px){
-    #logo, #navbar, #button{
-        visibility: hidden;
-    }
-
-    #tilecontainer {
-        /* border: solid 1px red; */
-    }
-
-    #tile {
-        /* border: solid 1px blue; */
-    }
-    
-}

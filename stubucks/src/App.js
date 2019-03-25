@@ -58,6 +58,8 @@ class App extends Component {
               trademark : "Stubucks is not a registered trademark, infact it was just something Stuart made Dan make even though he didn't have any spare time. But he likes designing stuff so that's OK"}
 
 }
+
+
   render() {
     return (
       <div className="App">
