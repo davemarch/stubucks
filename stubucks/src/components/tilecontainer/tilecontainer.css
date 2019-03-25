@@ -4,5 +4,12 @@
     flex-direction: row;
     /* border: solid 1px red; */
     height: 80vh;
+}
+
+@media (max-width: 600px) {
+    #tilecontainer {
+        flex-direction: column;
+
+    }
 
 }

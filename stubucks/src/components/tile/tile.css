@@ -19,3 +19,36 @@
     background-position: center;
 }
 
+@media (max-width: 600px) {
+    #roundImages {
+        position: absolute;
+        border-radius: 50%;
+        height: 70px;
+        width: 70px;
+        left: 70%;
+    }
+
+    #tile {
+        flex-direction: row;
+        width: 100%;
+        height: 33%;
+    }
+
+    #tile h4 {
+        font-weight: 400;
+    }
+
+    #tile h1 {
+        font-size: 120%;
+        font-weight: 700;
+        padding-bottom: 2%;
+    }
+
+    #circletext {
+        position: absolute;
+        /* border: solid 1px green; */
+        width: 60%;
+        right: 30%;
+    }
+}
+
