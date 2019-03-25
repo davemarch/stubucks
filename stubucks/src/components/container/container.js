@@ -7,7 +7,7 @@ import Heading from "../heading/heading.js";
 const Container = (props) => {
 
     return (
-    <div>
+    <div className = "container">
         <img id="arrow" src={props.arrow} />
         <div 
             id="container" 

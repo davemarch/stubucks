@@ -9,7 +9,6 @@
     background-position: center;
     background-repeat: no-repeat;
     color: white;
-
 }
 
 #icedCoffee {
@@ -28,6 +27,36 @@
 }
 
 @media (max-width: 600px) {
+
+    #container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .icedCoffeeCont {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #icedCoffee {
+        padding-top: 0%;
+        flex-direction: column
+    }
+
+    .icedCoffeeText {
+        justify-content: center;
+        left: 80%;
+    }
+
+    .icedCoffeeText h1{
+        font-size: 150%;
+    }
+
+    .icedCoffeeText h4{
+        font-size: 50%;
+    }
+
+
 }
 
 

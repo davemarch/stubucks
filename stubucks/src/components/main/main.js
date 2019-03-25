@@ -23,13 +23,15 @@ const Main = (props) => {
         <Button/>
         <Span
             spans = {props.spans[0]}/>
-        <Container  
-            arrow = {props.arrowWhite}
+            <div className = "icedCoffeeCont">
+                <Container  
+                    arrow = {props.arrowWhite}
 
-            icedCoffee = {props.icedCoffee} 
-            icedCoffeeBg = {props.icedCoffeeBg} 
-            headings = {props.headings[1]} 
-            />
+                    icedCoffee = {props.icedCoffee} 
+                    icedCoffeeBg = {props.icedCoffeeBg} 
+                    headings = {props.headings[1]} 
+                    />
+            </div>
         <div className="greenBg">
             <Span        
                 spans = {props.spans[1]}/>
