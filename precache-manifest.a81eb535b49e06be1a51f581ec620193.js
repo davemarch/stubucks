@@ -40,7 +40,7 @@ self.__precacheManifest = [
     "url": "/stubucks/static/media/buyEquipment.80bb634e.png"
   },
   {
-    "revision": "831862e627566274209d4eea6f35a8bc",
+    "revision": "5e4ad9a988bb20514c1d84150eed7da5",
     "url": "/stubucks/index.html"
   }
 ];
