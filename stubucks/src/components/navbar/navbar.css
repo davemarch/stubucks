@@ -3,8 +3,9 @@
     width: 100%;
     padding: 25px 0;
     background: #0E141D;
-    position: relative;
+    position: fixed;
     color: white;
+    z-index: 1;
 }
 
 #navbar ul {
