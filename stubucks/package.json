@@ -2,7 +2,7 @@
   "name": "stubucks",
   "version": "0.1.0",
   "private": true,
-  "homepage" : "https://davemarch.github.io/stubucks/",
+  "homepage": "https://davemarch.github.io/stubucks/",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "nodejs": "0.0.0",
@@ -14,7 +14,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "predeploy" : "npm run build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "eject": "react-scripts eject"
   },
@@ -28,4 +28,3 @@
     "not op_mini all"
   ]
 }
- 

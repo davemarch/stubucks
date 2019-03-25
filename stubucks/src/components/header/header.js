@@ -5,7 +5,7 @@ import NavBar from "../navbar/navbar.js";
 
 const Header = (props) => {
     return (
-    <header >
+    <header id="headerWrap">
         <span id="header">
         {props.heading}
         {props.storeLocator}

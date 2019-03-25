@@ -4,8 +4,15 @@
     /* border: solid 1px red; */
     height: 5%;
     text-align: center;
+
 }
 
+#headerWrap {
+    width: 100%;
+    position: fixed;
+    background: white;
+    z-index: 1;
+}
 #offerCode{
     /* border: solid 1px blue; */
     width: 80%;
