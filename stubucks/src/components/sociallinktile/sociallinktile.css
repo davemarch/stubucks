@@ -1,9 +1,14 @@
 #sociallinktile ul{
-    list-style: none;
     display: flex;
     flex-direction: row;
     justify-content: center;
+    margin: 0;
+    width: 100%;
 
+}
+
+#sociallinktile li{
+    width: 30%;
 }
 
 img {

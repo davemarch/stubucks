@@ -4,6 +4,8 @@ import Container from "../container/container.js";
 import Span from "../span/span.js";
 import TileContainer from "../tilecontainer/tilecontainer.js";
 import NavFooter from "../navfooter/navfooter.js";
+import Button from "../button/button.js";
+
 
 
 
@@ -14,9 +16,11 @@ const Main = (props) => {
 
         return (
     <div id="main">
-        <Container 
+        <Container
             background = {props.heroBackground} 
-            headings = {props.headings[0]} />
+            headings = {props.headings[0]} 
+        />
+        <Button/>
         <Span
             spans = {props.spans[0]}/>
         <Container  

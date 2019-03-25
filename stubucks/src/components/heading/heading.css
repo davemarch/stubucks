@@ -4,3 +4,24 @@
     right: 30%;
     width: 30%;
 }
+
+.hotCoffeeText {
+    position: relative;
+    right: 50%;
+    font-size: 170%;
+    width: 200%;
+}
+
+.icedCoffeeText {
+    position: relative;
+    right: 50%;
+    font-size: 170%;
+    width: 150%;
+}
+
+.icedCoffeeText h1{
+    padding: 5%;
+}
+
+
+

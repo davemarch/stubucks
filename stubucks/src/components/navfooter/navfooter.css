@@ -1,11 +1,13 @@
 #navfooter{
     display: flex;
     flex-direction: row;
-    background: #e7e7e7
+    background: #e7e7e7;
+    text-align: left;
 }
 
 #navfooter h1 {
     padding: 5%;
+    padding-left: 0;
     font-weight: 1000;
 }
 

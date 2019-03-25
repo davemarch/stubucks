@@ -28,7 +28,7 @@ class App extends Component {
               icedCoffeeBg : '#0e141d',
               headings: [
               <div className = "hotCoffeeText"><h1><span className='greenText'>Love</span> your Stu</h1><h4>Look at our range and choose the Stu that suits you.</h4></div>, 
-              <div className = "icedCoffeeText"><h1>The new <span className='greenText'>StuBrew</span></h1><h4>A delicious new nitro brew develop carefully on the darkside of the moon, instilled with the freshness of Stu himself.</h4></div>, 
+              <div className = "icedCoffeeText"><h1>The new <span className='greenText'>StuBrew</span></h1><h4>A delicious new <span className="greenText">nitro brew</span> develop carefully on the darkside of the moon, instilled with the freshness of Stu himself.</h4></div>, 
               ],
               
               spans: [
@@ -46,7 +46,7 @@ class App extends Component {
               companyLinks : ['Code Ethics', 'Responsible Sourcing', 'Supply Chain', 'Limited Partners', 'Office Coffee'],
               socialLinks : [<img src={facebook} />, <img src={instagram} />, <img src={linkedin} />, <img src={twitter} />, <img src={pinterest} /> ]
              },
-    Footer : {address : "Stubucks, Cheshire, Since 2019",
+    Footer : {address : <p>Stubucks Chester,<br/> Cheshire,<br/> Since 2019</p>,
               links : ['Stubucks Coffee', "|", "Privacy Policy", "|", "Terms of Service"],
               trademark : "Stubucks is not a registered trademark, infact it was just something Stuart made Dan make even though he didn't have any spare time. But he likes designing stuff so that's OK"}
 
