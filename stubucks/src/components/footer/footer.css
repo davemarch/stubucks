@@ -19,3 +19,24 @@
     margin-left: 10%;    
     width: 70%;
 }
+
+
+@media (max-width: 600px) {
+    #footer {
+        flex-direction: column;
+        text-align: center;
+    }
+    .address {
+        margin-left: 0;
+        padding: 5%;
+    }
+    .footerWrapper {
+        text-align: center;
+        margin-left: 0%;    
+        width: 100%;
+    }
+
+    .footerWrapper p {
+        padding-top: 5%;
+    }
+}

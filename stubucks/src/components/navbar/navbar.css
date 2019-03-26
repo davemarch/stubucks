@@ -69,6 +69,17 @@
         top: 13px;
     }
 
+   
+
+    .active .burgerIcon .line:after {
+        transform: translateY(13px)
+    }
+
+    .active .burgerIcon .line:before {
+        transform: translateY(-15px)
+    }
+
+
     #navbar ul {
         display: none;
         position: relative;
@@ -94,9 +105,11 @@
     }
 
     #logo {
+        position: absolute;
         left: auto;
         right: 2%;
-        top: 2%;
+        top: 0%;
+        padding: 1%;
         min-width: 75px;
         max-width: 75px;
     }

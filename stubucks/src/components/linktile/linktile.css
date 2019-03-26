@@ -8,6 +8,12 @@
 }
 
 @media (max-width: 600px){
+
+    #linktile h1{
+        /* border: solid 1px red; */
+        font-size: 24px;
+    }
+
 .mob-line {
     display: block;
     position: relative;
