@@ -1,5 +1,5 @@
 {
-  "main.css": "/stubucks/static/css/main.0a6d2e69.chunk.css",
+  "main.css": "/stubucks/static/css/main.1a2b9a94.chunk.css",
   "main.js": "/stubucks/static/js/main.84444ea8.chunk.js",
   "main.js.map": "/stubucks/static/js/main.84444ea8.chunk.js.map",
   "runtime~main.js": "/stubucks/static/js/runtime~main.2c0cf6f9.js",
@@ -7,9 +7,9 @@
   "static/js/2.73720f15.chunk.js": "/stubucks/static/js/2.73720f15.chunk.js",
   "static/js/2.73720f15.chunk.js.map": "/stubucks/static/js/2.73720f15.chunk.js.map",
   "index.html": "/stubucks/index.html",
-  "precache-manifest.91260ef3f82747a26c6b5c40198f14e6.js": "/stubucks/precache-manifest.91260ef3f82747a26c6b5c40198f14e6.js",
+  "precache-manifest.90645b2dcfaa549156f7fab1da75b37d.js": "/stubucks/precache-manifest.90645b2dcfaa549156f7fab1da75b37d.js",
   "service-worker.js": "/stubucks/service-worker.js",
-  "static/css/main.0a6d2e69.chunk.css.map": "/stubucks/static/css/main.0a6d2e69.chunk.css.map",
+  "static/css/main.1a2b9a94.chunk.css.map": "/stubucks/static/css/main.1a2b9a94.chunk.css.map",
   "static/media/StubrewIcedCoffee.png": "/stubucks/static/media/StubrewIcedCoffee.5e00bade.png",
   "static/media/StubucksHero.jpg": "/stubucks/static/media/StubucksHero.1d7b8b13.jpg",
   "static/media/buyCoffee.jpg": "/stubucks/static/media/buyCoffee.5fb42db7.jpg",
