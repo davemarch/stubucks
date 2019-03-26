@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/stubucks/static/media/StubucksHero.1d7b8b13.jpg"
   },
   {
-    "revision": "dca8532ce1710beff993",
-    "url": "/stubucks/static/css/main.6ff14b6e.chunk.css"
+    "revision": "9fd85cebae346a42a84d",
+    "url": "/stubucks/static/css/main.0f7f295b.chunk.css"
   },
   {
     "revision": "e84069ab57254b164cda",
@@ -20,8 +20,8 @@ self.__precacheManifest = [
     "url": "/stubucks/static/media/stubucks-logo.a70b01df.png"
   },
   {
-    "revision": "dca8532ce1710beff993",
-    "url": "/stubucks/static/js/main.df1daaea.chunk.js"
+    "revision": "9fd85cebae346a42a84d",
+    "url": "/stubucks/static/js/main.84444ea8.chunk.js"
   },
   {
     "revision": "5e00badedb58df5b57325e03227c2e9b",
@@ -40,7 +40,7 @@ self.__precacheManifest = [
     "url": "/stubucks/static/media/buyEquipment.80bb634e.png"
   },
   {
-    "revision": "d85c353de3c2360966c0f96ea026004a",
+    "revision": "072c298354f4b36628850fecdc43f6cf",
     "url": "/stubucks/index.html"
   }
 ];
