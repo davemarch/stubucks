@@ -7,7 +7,6 @@
 
 #navfooter h1 {
     padding: 5%;
-    padding-left: 0;
     font-weight: 1000;
 }
 
@@ -42,13 +41,15 @@ ul {
 
 @media (max-width: 600px){
 
-    #linktile li{
+    #linktile ul{
         display: none;
     }
 
-    #linktile h1 {
-
+    .active .linktile ul{
+        display: block;
     }
+
+   
 
     #navfooter {
         flex-direction: column;

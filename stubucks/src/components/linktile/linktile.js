@@ -10,11 +10,13 @@ const Linktile = (props) => {
     
 
     return (
-    <div id="linktile">
-        <h1>{props.headings}</h1>
+    <div id="linktile" className="linktile">
+        <button onClick={function(e){e.currentTarget.parentElement.classList.toggle('active');}}><h1>{props.headings}</h1><div id="chevron-arrow-left"/></button>
+        
         <ul>
             {linkItems}
         </ul>
+        <div className="mob-line"> </div>
         
 
     </div>

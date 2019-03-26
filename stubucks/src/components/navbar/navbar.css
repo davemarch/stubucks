@@ -46,6 +46,7 @@
         border-radius: 0;
         left: 19px;
         top: -10px;
+        background: black;
     }
 
     .burgerIcon .line,
@@ -95,6 +96,7 @@
     #logo {
         left: auto;
         right: 2%;
+        top: 2%;
         min-width: 75px;
         max-width: 75px;
     }
