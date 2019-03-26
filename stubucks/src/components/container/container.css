@@ -38,8 +38,18 @@
         flex-direction: column;
     }
 
+    #icedCoffee {
+        position: relative;
+        /* height: 35%; */
+        width: 40%;
+        bottom: 40px;
+    }
 
+    .icedCoffeeText {
+        text-align: center;
+    }
 
+    
 
 }
 

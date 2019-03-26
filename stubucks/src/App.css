@@ -6,5 +6,8 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+.App {
+    overflow: hidden;
+}
 
 

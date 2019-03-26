@@ -12,7 +12,7 @@ let menuItems = props.menu.map(function(item, index){
     return (
     <nav id="navbar" className='navbar test'>
     <img id="logo" src={props.logo.logo}/> 
-    <button className="burgerIcon" onClick={function(e){e.currentTarget.parentElement.classList.add('active');e.currentTarget.classList.remove('test')}}><span className="line"></span></button>   
+    <button className="burgerIcon" onClick={function(e){e.currentTarget.parentElement.classList.toggle('active');}}><span className="line"></span></button>   
     <ul>
     {menuItems}
     </ul>

@@ -59,7 +59,8 @@
     }
 
     .icedCoffeeText h4{
-        font-size: 50%;
+        font-weight: 400;
+        font-size: 100%;
     }
 }
 

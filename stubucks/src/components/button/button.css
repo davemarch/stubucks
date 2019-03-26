@@ -6,6 +6,10 @@
     width: 20%;
 }
 
+#orderTextMobile {
+    display: none;
+}
+
 button {
     width: 100%;
     height: 100%;
@@ -14,4 +18,23 @@ button {
     border-radius: 10px;
     background: black;
     color: white;
+}
+
+@media (max-width: 600px){
+    #button {
+        width: 80%;
+        left: 10%;
+    }
+
+    .orderButton {
+        background: #317255;
+    }
+
+    #orderTextDesktop {
+        display: none;
+    }
+
+    #orderTextMobile {
+        display: block;
+    }
 }
