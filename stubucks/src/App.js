@@ -18,6 +18,8 @@ import buyTea from "./Assets/Images/buyTea.jpg";
 import buyEquipment from "./Assets/Images/buyEquipment.png";
 import arrowGreen from "./Assets/Icons/icon-arrow-green.png";
 import arrowWhite from "./Assets/Icons/icon-arrow-white.png";
+import map from "./Assets/Icons/map.png";
+
 
 
 
@@ -55,7 +57,8 @@ class App extends Component {
              },
     Footer : {address : <p>Stubucks Chester,<br/> Cheshire,<br/> Since 2019</p>,
               links : ['Stubucks Coffee', " | ", "Privacy Policy", " | ", "Terms of Service"],
-              trademark : "Stubucks is not a registered trademark, infact it was just something Stuart made Dan make even though he didn't have any spare time. But he likes designing stuff so that's OK"}
+              trademark : "Stubucks is not a registered trademark, infact it was just something Stuart made Dan make even though he didn't have any spare time. But he likes designing stuff so that's OK",
+              map : map}
 
 }
 
